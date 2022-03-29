@@ -1,0 +1,13 @@
+@import "styles/variaveis";
+@import "styles/breakpoints";
+
+.cardapio {
+  &__filtros{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}
